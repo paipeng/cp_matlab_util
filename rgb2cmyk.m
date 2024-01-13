@@ -12,5 +12,4 @@ function cmyk = rgb2cmyk(rgb)
             cmyk(y,x,2) = M - cmyk(y,x,4);
             cmyk(y,x,3) = Y - cmyk(y,x,4);
         end
-        
     end
